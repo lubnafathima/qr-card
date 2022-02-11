@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+// variable and function
+@import 'variables';
+
+// base & layout
+@import 'general';
+@import 'media';
+
+// components (button, card, navbar)
+@import 'components/container';
+@import 'components/top';
+@import 'components/head';
+@import 'components/para';
+
+// utilities (margin, padding, opacity)
+// @import 'utilities';

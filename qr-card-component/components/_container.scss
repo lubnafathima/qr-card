@@ -1,0 +1,16 @@
+.container {
+    // @include flex;
+    background-color: $White;
+    width: 30%;
+    height: auto;
+    padding: $padding;
+    border-radius: $rad;
+    @include sm {
+        width: 80%;
+    }
+}
+
+@mixin gen() {
+    padding: $padding-text;
+    text-align: $align;
+}

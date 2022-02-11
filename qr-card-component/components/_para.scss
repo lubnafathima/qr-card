@@ -1,0 +1,13 @@
+@mixin screen-min($min) { 
+    @media (min-width: $min) { 
+      @content
+    } 
+}; 
+
+.para {
+    @include gen;
+    font-size: $para-font;
+    @include sm {
+      font-size: $head-font-sm;
+  }
+}

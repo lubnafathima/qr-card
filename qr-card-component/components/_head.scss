@@ -1,0 +1,7 @@
+.head {
+    @include gen;
+    font-size: $head-font;
+    @include sm {
+        font-size: $head-font-sm;
+    }
+}
